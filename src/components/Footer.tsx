@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full mt-12 border-t border-gray-300 dark:border-gray-700 py-6 bg-gradient-to-t from-transparent via-transparent to-white/20 dark:to-gray-900/20 flex flex-col items-center">
+    <footer className="w-full mt-12 border-t border-gray-300 dark:border-gray-700 py-6 bg-linear-to-t from-transparent via-transparent to-white/20 dark:to-gray-900/20 flex flex-col items-center">
       <p className="text-center text-sm text-gray-700 dark:text-gray-300">
         💌 Made with love for Weza Memories
       </p>

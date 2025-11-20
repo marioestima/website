@@ -1,21 +1,25 @@
-import React from "react";
+// import React from "react";
+import { Camera, PenLine, AtSign } from "lucide-react";
 
-const Footer: React.FC = () => {
+export default function Footer() {
   return (
-    <footer className="w-full mt-12 border-t border-gray-300 dark:border-gray-700 py-6 bg-linear-to-t from-transparent via-transparent to-white/20 dark:to-gray-900/20 flex flex-col items-center">
-      <p className="text-center text-sm text-gray-700 dark:text-gray-300">
-        💌 Made with love for Weza Memories
-      </p>
-      <p className="text-center text-xs text-gray-500 dark:text-gray-400 mt-1">
-        © {new Date().getFullYear()} All rights reserved
-      </p>
-      <div className="flex mt-3 gap-2">
-        <span className="h-2 w-2 rounded-full bg-pink-400 animate-pulse"></span>
-        <span className="h-2 w-2 rounded-full bg-purple-400 animate-pulse delay-200"></span>
-        <span className="h-2 w-2 rounded-full bg-blue-400 animate-pulse delay-400"></span>
+    <footer className="w-full bg-white shadow-md border-t border-gray-200 py-6 flex flex-col items-center gap-4 rounded-xl">
+      {/* Links */}
+      <div className="flex flex-col items-center text-sm text-gray-600 gap-1">
+        <a href="#" className="hover:text-gray-800 transition">Home</a>
+        <a href="#" className="hover:text-gray-800 transition">About</a>
+        <a href="#" className="hover:text-gray-800 transition">Contact</a>
       </div>
+
+      {/* Ícones */}
+      <div className="flex items-center gap-6 text-gray-500 text-lg\">
+        <Camera className="w-5 h-5 hover:text-gray-700 transition\" />
+        <PenLine className="w-5 h-5 hover:text-gray-700 transition\" />
+        <AtSign className="w-5 h-5 hover:text-gray-700 transition\" />
+      </div>
+
+      {/* Texto final */}
+      <p className="text-xs text-gray-500">© 2024 Weza Memories. All rights reserved.</p>
     </footer>
   );
-};
-
-export default Footer;
+}

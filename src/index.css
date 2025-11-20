@@ -1,0 +1,15 @@
+@import "tailwindcss";
+ 
+/* Classes de fonte */
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+.font-display {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -51,22 +51,8 @@ const galleryItems: GalleryItem[] = [
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuDclQEsh9JuOT4tNBbHmkAOiHaWlt2H7Lv03op1xFlya-AtRJeeIpM9ALyDu7MH3Ca7X4it7aHqrtuHwHvB8JQuNmncj7r4Qvtbm0dNdDMcGXrfRoZc2Qugxery6ydv51RtZgzrS6r0I5tohNdYuPbv8CzQWiCpQtzlO0gPnLxTTElR5_cuGfxlFI4IbCkpr9m9KX66-LiLTnZfDaKE5LqodUyr7_BvXsyyTlisY6VRQ-Z4WBuXDXQ2ugVRxp6jATupDiAza6hwseU",
     altText: "Close-up of pink Sakura cherry blossoms in full bloom against a soft-focus background."
   },
-  {
-    titlePt: "Estação Silenciosa",
-    titleEn: "Quiet Station",
-    titleKr: "조용한 역",
-    titleJp: "静かな駅",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuAtr7lE5BK4-ZIJcAFt7Elth-4dJPVJHsmXpsQqC5wCBUguCAFngN8bo6lSrQ8KZFOld7Fp_zyJuvIx5U3lki4MQ-pnsrmsuVZeMRMdAoMmagO8iXUfdQLd6_E7YRx2rWDH3ya7bU7qatRq8uaOTPdv_rF-RPbzl0Eh-KLMv2kRCRm8zESOZNhmGg7fApAdb7N-99x9GEqXFKoIF-GiCU14knky9mqoyb7pfWRvjz3xnmQSGMDdcKW59MAkYqOjHItZOhFX9Vwnw",
-    altText: "An empty train station platform at dusk, giving off a quiet and contemplative anime vibe."
-  },
-  {
-    titlePt: "Luz Dourada",
-    titleEn: "Golden Light",
-    titleKr: "황금빛",
-    titleJp: "黄金の光",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuAQaNVF9Pwe6E5THeeD0HMlFvg7P4txV1a1a9C7MrgacuD9XY6GpeKwBaSAiKRkqLqa7os-NwfUTQYJ2bZfA8QHrLhz3sPipZogh04xRy2UO-jXz_N4hsg7a1UoH92SYSa-S8321CGqkBuN9uGJbGo1aUuxtifYm-ZR6xR4uGvouLUVaU27eXrWnd5JxB4O0CpVoMOuVUe11TNmx3sMBq4nsmxLoY4_vxFmGK0bA2jAj6Myyh_WRomx1SSFNzX26DniM4LWYu908",
-    altText: "A field of wheat bathed in the warm, golden light of the setting sun."
-  },
+  
+ 
   {
     titlePt: "Nuvens Sonhadoras",
     titleEn: "Dreamy Clouds",
